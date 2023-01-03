@@ -1,0 +1,90 @@
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Five links of equal widths */
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(193, 189, 189);
+  overflow: auto;
+}
+
+.navbar a:hover {
+  background-color: rgb(82, 19, 171);
+}
+
+.navbar a.active {
+  background-color: #276d53;
+}
+
+
+.bot-img{
+  float:right;
+  width:30%;
+  
+  margin:5px;
+  height:100%;
+}
+.bot-img1{
+  float:left;
+  width:30%;
+  
+  margin:8px;
+  height:50%;
+} 
+
+.bot-img2{
+  float:right;
+  width:30%;
+  
+  
+  margin:5px;
+  height:100%;
+}
+.iframe{
+  float:left;
+}
+
+.li{
+  font-size: 15px;
+  color:white;
+  line-height: 22px;
+  margin:5px;
+ 
+ 
+}
+
+#div-contact{
+  color:white;
+  background-size: cover;
+  background-color:black;
+ 
+  width:100%;
+  line-height: 2;
+  
+
+}
+.div-medicine_record{
+    
+  width: 50%;
+   text-align:center;
+   border-radius:15px;
+   margin:5px;
+   padding:6px;
+}
+
+
+.div-patient_registration{
+  
+  
+  
+   text-align:center;
+   border-radius:15px;
+   margin:5px;
+   padding:6px;
+}

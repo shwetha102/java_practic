@@ -1,0 +1,92 @@
+<!-- • Medicine Record
+Beside Home page option we should have Medicine Entry Form. This form is used to capture the name of the medicine supplier and all the medicines supplied by them.
+In medicine entry form we should take 3 inputs that represent the “Supplier Details”
+1.Supplier ID 
+2.Supplier Name 
+3.Date and time of Supply
+
+• Right below the “Supplier Details” you should have a table, with multiple rows. Each row represents a medicine supplied by the particular Supplier.   
+1.Medicine ID 
+2.Medicine Name 
+3.Unit price 
+4.Quantity 
+5.Manufacture date
+6.Expiry Date
+And the “Submit button” at the bottom middle of the page. -->
+
+<html>
+
+<head>
+  <link src="Mini.css;">
+</head>
+
+<body>
+  <div class="div-medicinerecord;">
+    <fieldset>
+      <legend>Medicine Record</legend>
+
+      <form>
+        <fieldset>
+          <legend>Medicine entry form for supplier details</legend>
+          <label>Enter Supplier id </label>
+          <input type="text" name="Supplier id" required="required" />
+          <br />
+
+          <br />
+          <label>Enter Supplier Name </label>
+          <input type="text" name="Supplier name" required="required" />
+
+          <br />
+
+          <br />
+          <label>Enter Date and time of Supply</label>
+          <input type="date" name="Date and time of supply" required="required" />
+          <br />
+
+          <br />
+          <input type="submit" name="Submit" style=background-color:green; />
+          <input type="reset" name="Reset" />
+        </fieldset>
+
+
+      </form><br><br>
+      <table border="1" ; cellspacing="20">
+        <tr>
+          <th>S.nO</th>
+          <th>Medicine Name</th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Manufacture Date</th>
+          <th>Expiry date</th>
+        </tr>
+        <tr>
+          <td height="30"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td height="30"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td height="30"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <input type="submit" name="submit" style="background-color:green;">
+    </fieldset>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+    
+<!--Exercise 2: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!--Exercise 2.1: Using pseudo element selector, create a paragraph and display only the first line of para with blue coloured text with a capital letters of small size.-->
+  <html>
+    <head>
+        <style>
+            
+            p::first-line{
+                color:blue;
+                
+                text-transform:uppercase;
+                font-size:10px;
+            }
+        </style>
+    </head>
+<body>
+    
+  <p>pseudo element selector<br>
+  pseudo element selector<br>
+</body>
+</html>
+<!-- Exercise 2.2: Using general sibling selector, create an Unordered list, change the colour of the items to green and display them in bold text. --> 
+    <html>
+    <head>
+        <style>
+        ul~li{
+            color:green;
+            font-weight:bold;
+            
+        }
+            
+        </style>
+    </head>
+    
+<body>
+   <ul>
+    
+    <li> HTML</li>
+
+<li>CSS</li>
+<li>Java Script</li></ul>
+<li>React.js</li>
+<li>SQL</li>
+<li>node.js</li>
+<li>Angular</li>
+
+
+
+
+
+</body>
+</html>
+
+<!-- Exercise 2.3: Using adjacent sibling selector, display list items in an ordered list and change the background colour to yellow for the element which is an adjacent sibling for the selected element. -->
+  <html>
+    <head>
+        <style>
+        ol+li{
+            background-color:yellow;
+            
+        }
+            
+        </style>
+        
+    </head>
+    
+    
+    
+<body>
+<ol>
+    
+    <li> HTML</li>
+
+<li>CSS</li>
+<li>Java Script</li></ol>
+<li>React.js</li>
+<li>SQL</li>
+<li>node.js</li>
+<li>Angular</li
+
+</body>
+</html>
+

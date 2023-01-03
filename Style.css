@@ -1,0 +1,10 @@
+ 
+      body{background-color: burlywood;}
+      h1{font-size: 20px;
+        colour:black;}
+      p{color: blueviolet;
+        border: 5px;
+        border-style: double;
+        border-radius: 20px;
+       text-align: justify;}
+    
